@@ -69,7 +69,7 @@ const Product = () => {
   return (
 <Fragment>
   <div className="product-container">
-    <h1 className="product-heading">Products</h1>
+      <h1 className="product-heading">Products</h1>
     <input
       type="text"
       placeholder="Search by Name, category or price..."
