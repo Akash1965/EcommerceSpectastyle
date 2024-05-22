@@ -84,11 +84,13 @@ const ProductDetail = ({ productId, onClose }) => {
         {product ? (
           <>
             <div className="product-detail-left">
-              <img
+              <div className="product-detail-image-container">
+                <img
                 src={product.productImage}
                 alt={product.productName}
                 className="product-detail-image"
-              />
+                />
+              </div>
               <div className="product-detail-reviews">
                 {reviews.slice(0, 2).map((review) => (
                   <div key={review._id} className="product-review-card">
